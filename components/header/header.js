@@ -48,6 +48,7 @@ const header = () => {
     const addProduct = (event) => {
         const category = event.target.dataset.category;
         const id = event.target.dataset.id;
+        console.log(category)
         if (category) {
             if (category === 'bookets') {
                 for (const item of bookets) {
@@ -83,10 +84,6 @@ const header = () => {
                 }
             }
         }
-
-
-
-
     }
 
     navigationList.addEventListener('click', setActiveLink); //ul

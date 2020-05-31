@@ -8,7 +8,7 @@ export const openItemModal = (item) => {
         instance.close()
     }
     const instance = basicLightbox.create(`
-    <div class="modal">
+    <div class="cartBigModal">
     <li class="bigListItem">
     <h2 class="bigListItemTitle">${item.title}</h2>
 
@@ -23,11 +23,12 @@ export const openItemModal = (item) => {
         </div>
     </div>
     </li>
-      <a>Close</a>
+    <button class="closeButton orderButton">Close</button>
+
     </div>
 `, {
         onShow: (instance) => {
-            instance.element().querySelector('a').onclick = instance.close
+            instance.element().querySelector('.closeButton').onclick = instance.close
         }
     })
     instance.show();

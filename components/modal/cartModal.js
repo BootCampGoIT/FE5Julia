@@ -23,20 +23,22 @@ export const openOrder = () => {
     const instance = basicLightbox.create(`
     <div class="modal">
         <div class="cartWindow">
-        <h2>Product in cart</h2>
-        ${(cart.items.length === 0) ? `<p>No products in cart</p>` : ''}
-        <ul class="cartList">${createMarkup()}</ul>
-        <div class="cartItemsFlex">
-        <span><b>All products in cart:</b> ${cart.totalQuantity}</span>
-        <span class="cartItemsPrice"><b>Total price:</b> ${cart.totalPrice} UAH</span>
+            <h2>Product in cart</h2>
+            ${(cart.items.length === 0) ? `<p>No products in cart</p>` : ''}
+            <ul class="cartList">${createMarkup()}</ul>
+            <div class="cartItemsFlex">
+                <span><b>All products in cart:</b> ${cart.totalQuantity}</span>
+                <span class="cartItemsPrice"><b>Total price:</b> ${cart.totalPrice} UAH</span>
+            </div>
         </div>
-        ${(cart.items.length > 0) ? `<button class="orderButton">Get order</button>` : `<button class="orderButton">Close</button>`}
+        <div class="buttonsWrapper">
+            ${(cart.items.length > 0) ? `<button class="orderButton">Get order</button>` : ''}
+            <button class="closeButton orderButton">Close</button>
         </div>
-        <a>Close</a>
     </div>
 `, {
         onShow: (instance) => {
-            instance.element().querySelector('a').onclick = instance.close
+            instance.element().querySelector('.closeButton').onclick = instance.close
         }
     })
 

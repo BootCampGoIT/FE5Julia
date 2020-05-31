@@ -1,6 +1,6 @@
 export const bookets = [
     {
-        id: 1,
+        id: "1",
         category: "bookets",
         title: "Коробка из 175 роз",
         url: "https://static.lepestki.kiev.ua/filestorage/products/335/66939/205x205.jpg",
@@ -8,7 +8,7 @@ export const bookets = [
         price: 10000
     },
     {
-        id: 2,
+        id: "2",
         category: "bookets",
         title: "Букет «Роззе»",
         url: "https://static.lepestki.kiev.ua/filestorage/products/335/66915/205x205.jpg",
@@ -16,7 +16,7 @@ export const bookets = [
         price: 700
     },
     {
-        id: 3,
+        id: "3",
         category: "bookets",
         title: "9 разноцветных тюльпанов",
         url: "https://static.lepestki.kiev.ua/filestorage/products/325/64821/205x205.jpg",
@@ -24,7 +24,7 @@ export const bookets = [
         price: 500
     },
     {
-        id: 4,
+        id: "4",
         category: "bookets",
         title: "Осенняя пора",
         url: "https://static.lepestki.kiev.ua/filestorage/products/323/64577/205x205.jpg",
@@ -32,7 +32,7 @@ export const bookets = [
         price: 940
     },
     {
-        id: 5,
+        id: "5",
         category: "bookets",
         title: "Букет цветов 'Лагуна'",
         url: "https://static.lepestki.kiev.ua/filestorage/products/320/63821/205x205.jpg",
@@ -40,7 +40,7 @@ export const bookets = [
         price: 1325
     },
     {
-        id: 6,
+        id: "6",
         category: "bookets",
         title: "Утонченная элегантность",
         url: "https://static.lepestki.kiev.ua/filestorage/products/320/63856/205x205.jpg",
@@ -48,7 +48,7 @@ export const bookets = [
         price: 3700
     },
     {
-        id: 7,
+        id: "7",
         category: "bookets",
         title: "9 лилий",
         url: "https://static.lepestki.kiev.ua/filestorage/products/319/63744/205x205.jpg",
@@ -56,7 +56,7 @@ export const bookets = [
         price: 900
     },
     {
-        id: 8,
+        id: "8",
         category: "bookets",
         title: "Весна",
         url: "https://static.lepestki.kiev.ua/filestorage/products/322/64384/205x205.jpg",
@@ -64,7 +64,7 @@ export const bookets = [
         price: 975
     },
     {
-        id: 9,
+        id: "9",
         category: "bookets",
         title: "Красное облако",
         url: "https://static.lepestki.kiev.ua/filestorage/products/319/63753/205x205.jpg",
@@ -72,7 +72,7 @@ export const bookets = [
         price: 2200
     },
     {
-        id: 10,
+        id: "10",
         category: "bookets",
         title: "Букет цветов 'Успех'",
         url: "https://static.lepestki.kiev.ua/filestorage/products/321/64160/205x205.jpg",
@@ -83,7 +83,7 @@ export const bookets = [
 
 export const buskets = [
     {
-        id: 1,
+        id: "1",
         category: "buskets",
         title: "Корзина цветов 'Изабелла'",
         url: "https://static.lepestki.kiev.ua/filestorage/products/320/63944/205x205.jpg",
@@ -91,7 +91,7 @@ export const buskets = [
         price: "3000"
     },
     {
-        id: 2,
+        id: "2",
         category: "buskets",
         title: "Композиция из 1001 розы 'Ромашка'",
         url: "https://static.lepestki.kiev.ua/filestorage/products/327/65241/205x205.jpg",
@@ -99,7 +99,7 @@ export const buskets = [
         price: 66000
     },
     {
-        id: 3,
+        id: "3",
         category: "buskets",
         title: "Нежная корзина из роз",
         url: "https://static.lepestki.kiev.ua/filestorage/products/335/66824/205x205.jpg",
@@ -107,7 +107,7 @@ export const buskets = [
         price: 9860
     },
     {
-        id: 4,
+        id: "4",
         category: "buskets",
         title: "Корзина «Розовое настроение»",
         url: "https://static.lepestki.kiev.ua/filestorage/products/335/66824/205x205.jpg",
@@ -115,7 +115,7 @@ export const buskets = [
         price: 3500
     },
     {
-        id: 5,
+        id: "5",
         category: "buskets",
         title: "Премиум-коробка ",
         url: "https://static.lepestki.kiev.ua/filestorage/products/323/64411/205x205.jpg",
@@ -123,7 +123,7 @@ export const buskets = [
         price: 2600
     },
     {
-        id: 6,
+        id: "6",
         category: "buskets",
         title: "VIP корзина 'Для тебя!'",
         url: "https://static.lepestki.kiev.ua/filestorage/products/327/65238/205x205.jpg",
@@ -131,7 +131,7 @@ export const buskets = [
         price: 9800
     },
     {
-        id: 7,
+        id: "7",
         category: "buskets",
         title: "Цветочная корзина 'Весенние утро'",
         url: "https://static.lepestki.kiev.ua/filestorage/products/321/64106/205x205.jpg",
@@ -139,7 +139,7 @@ export const buskets = [
         price: 4700
     },
     {
-        id: 8,
+        id: "8",
         category: "buskets",
         title: "Корзина «101 белая роза»",
         url: "https://static.lepestki.kiev.ua/filestorage/products/323/64515/205x205.jpg",
@@ -147,7 +147,7 @@ export const buskets = [
         price: 6500
     },
     {
-        id: 9,
+        id: "9",
         category: "buskets",
         title: "Корзина цветов в виде сердца (301 роза)",
         url: "https://static.lepestki.kiev.ua/filestorage/products/327/65239/205x205.jpg",
@@ -155,7 +155,7 @@ export const buskets = [
         price: 27000
     },
     {
-        id: 10,
+        id: "10",
         category: "buskets",
         title: "Корзина из 201 пиона",
         url: "https://static.lepestki.kiev.ua/filestorage/products/331/66093/205x205.jpg",
@@ -166,19 +166,19 @@ export const buskets = [
 
 export const news = [
     {
-        id: 1,
+        id: "1",
         category: "news",
         title: "Сладкие букеты",
         content: "В скором времени планируем запустить в продажу так называемые 'Сладкие букеты'. ",
     },
     {
-        id: 2,
+        id: "2",
         category: "news",
         title: "Доставка в любое удобное вам место",
         content: "Так же вам будет предложела услуга доставки в абсолютно любое место",
     },
     {
-        id: 3,
+        id: "3",
         category: "news",
         title: "1+1=3",
         content: "Будет предложена акция '1+1=3', порадуйте всю семью",
